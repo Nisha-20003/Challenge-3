@@ -62,12 +62,21 @@
          display: block;
          border-radius: 10px;
           }
-          Video::-webkit-media-controls-play-button{
-              background-color: yellow;
-          }
-          Video::-webkit-media-controls-pause-button{
-              background-color: yellow;
-          }
+
+video::-webkit-media-controls-play-button {
+  background-color: #007bff; /* Change to your desired color pls */
+  border-color: #007bff;
+}
+
+video::-moz-media-controls-play-button {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+video::--webkit-media-controls-start-playback-button {
+  background-color: #007bff;
+  border-color: #007bff;
+}
           container2{
               margin-left: auto;
               margin-right: auto;
@@ -87,7 +96,7 @@
         <div class="container2">
         <div style="color: black; margin-top: 20px; height: 30px; padding-top: 10px; width: 120px; background-color: rgb(173, 255, 47); text-align: center; margin-left: auto; margin-right: auto; border-radius: 6px;"  >New feature</div>
         <div style="text-align: center; font-size: 50px; margin-top: 10px; color: white">Text-to-image</div>
-        <p style="text-align: center; padding-left: 100px; padding-right: 100px; padding-top: -60px; color: rgb(150, 150, 150)">Hi guys this is all for now. This project is not easy. Like up still now, I dont get how I will change the color of the pause video to yellow. I tried webkit but it was in vain. Thanks sir for your time my tutor for giving me projects to work on. I really appreciate. That will be all for now bye.</p>
+        <p style="text-align: center; padding-left: 150px; padding-right: 150px; padding-top: -60px; color: rgb(150, 150, 150)">Hi guys this is all for now. This project is not easy. Like up still now, I dont get how I will change the color of the pause video to yellow. I tried webkit but it was in vain. Thanks sir for your time my tutor for giving me projects to work on.</p>
         </div>
     </div>  
 </body>
